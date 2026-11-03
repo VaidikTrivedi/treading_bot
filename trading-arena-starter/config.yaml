@@ -1,0 +1,16 @@
+# Arena configuration. Change values here, never in code.
+currency: CAD
+start_capital: "50.00"          # string on purpose (Decimal)
+slippage: "0.001"               # 0.10% against the bot on every fill
+commission: "0.00"              # also test with "1.00"
+top_up_policy: to_50            # none | to_50
+min_weeks_before_elimination: 2
+min_trades_for_winner: 3
+daily_loss_halt: 0.10
+drawdown_halt_floor: 0.60
+min_dollar_volume: 1000000
+seed: 42
+data_cache_dir: data_cache
+report_dir: reports
+genome_dir: genomes
+universe: [XIU.TO, XIC.TO, VFV.TO, XEQT.TO, ZAG.TO, RY.TO, TD.TO, BNS.TO, ENB.TO, CNQ.TO, SHOP.TO]
